@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 
 import simple_draw as sd
-from painting import wall as pt_wall
+# from painting \
+import wall as pt_wall
 
 sd.resolution = (1000, 800)
 building_start_point = sd.get_point(x=300, y=10)

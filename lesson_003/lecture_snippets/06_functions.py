@@ -71,30 +71,7 @@ def create_default_user():
 user_name, user_age = create_default_user()
 
 
-# документирование
-def my_function():
-    """Не делаем ничего, но документируем.
 
-    Нет, правда, эта функция ничего не делает.
-    """
-    pass
-
-
-print(my_function.__doc__)
-
-
-# динамическая типизация
-def multiplay(number_1, number_2):
-    print('Функцию вызвали с параметрами', number_1, number_2)
-    value = number_1 * number_2
-    return value
-
-
-print(multiplay(number_1=42, number_2=27))
-print(multiplay(number_1='привет! ', number_2=34))
-
-
-# Параметры передаются как ссылка
 
 def elephant_to_free(some_list):
     elephant_found = 'elephant' in some_list

@@ -5,6 +5,9 @@ import time
 import simple_draw as sd
 
 sd.resolution = (1200, 800)
+sd.resolution = (1200, 800)
+sd.resolution = (1200, 800)
+sd.resolution = (1200, 800)
 
 
 def draw_buble(position, radius=50, step = 5, color=sd.COLOR_GREEN, width=1):
