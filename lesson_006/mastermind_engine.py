@@ -42,3 +42,5 @@ if __name__ == '__main__':
     make_number()
     bull, cow = check_number('1234')
     print(bull, cow)
+
+    print(generate_number())

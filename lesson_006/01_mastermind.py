@@ -45,7 +45,13 @@
 
 from mm_eng import make_namber, chek_namber
 from termcolor import cprint
-#
+make_namber()
+while:
+    client_number=input('Введите число:')
+    print(chek_namber(client_number))
+
+
+
 
 
 

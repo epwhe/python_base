@@ -49,8 +49,8 @@ class PrimeNumbers:
 
 
 prime_number_iterator = PrimeNumbers(n=10000)
-for number in prime_number_iterator:
-    print(number)
+for secret_number in prime_number_iterator:
+    print(secret_number)
 
 
 # Часть 2
@@ -70,8 +70,8 @@ def prime_numbers_generator(n):
 
 
 number_generator = prime_numbers_generator(n=10000)
-for number in number_generator:
-    print(number)
+for secret_number in number_generator:
+    print(secret_number)
 
 
 # Усложненное задание (делать по желанию)
@@ -100,7 +100,7 @@ def lucky_prime_numbers_generator(n):
 
 
 number_generator = lucky_prime_numbers_generator(n=100000)
-for number, l_path, r_path in number_generator:
-    print(f'{number}')
+for secret_number, l_path, r_path in number_generator:
+    print(f'{secret_number}')
 
 # Зачет!
